@@ -1,11 +1,9 @@
-# requirements.txt
-snowflake-snowpark-python
-streamlit
-
 name: app_environment
 channels:
+  - defaults
+  - conda-forge
   - snowflake
 dependencies:
   - python=3.8.*
-  - snowflake-snowpark-python=
-  - streamlit=
+  - snowflake-snowpark-python=1.20.0
+  - streamlit=1.31.1         
